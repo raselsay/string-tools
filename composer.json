@@ -1,0 +1,15 @@
+{
+  "name": "gloobit/string-tools",
+  "description": "A small PHP string utility library",
+  "type": "library",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "require": {
+    "php": ">=8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gloobit\\StringTools\\": "src/"
+    }
+  }
+}
