@@ -22,4 +22,9 @@ class StringHelper
 
         return trim($value, '-');
     }
+
+    public function length(string $value): int
+    {
+        return strlen($value);
+    }
 }
